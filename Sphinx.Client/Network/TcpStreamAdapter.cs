@@ -12,7 +12,7 @@ namespace Sphinx.Client.Network
 	{
 		#region Fields
 		private ManualResetEvent _resetEvent;
-        private Exception _exception;
+        private volatile Exception _exception;
 		#endregion
 
 		#region Constructor
